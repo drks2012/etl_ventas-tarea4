@@ -16,6 +16,7 @@ def main():
     limpio.to_csv(out, index=False)
     resumen.to_csv(out.with_name("resumen_" + out.name), index=False)
     print(f"Filas válidas: {len(limpio)} | Productos: {len(resumen)}")
+    print("FIN de ejecución pipeline. Mensaje desde main().")
  
 if __name__ == "__main__":
     main()
