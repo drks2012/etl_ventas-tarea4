@@ -20,6 +20,7 @@ pipeline {
  
     stages {
         stage('Checkout') { steps { checkout scm } }
+        // ... continúa en la siguiente lámina
         stage('Build') {
             steps { sh 'pip install -r requirements-dev.txt && mkdir -p reports output' }
         }
