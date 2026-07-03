@@ -1,5 +1,8 @@
 # tests/test_pipeline.py
-import subprocess, sys, pandas as pd, pytest
+import subprocess
+import sys
+import pandas as pd
+import pytest
  
 @pytest.mark.integracion
 def test_pipeline_genera_csv(tmp_path):

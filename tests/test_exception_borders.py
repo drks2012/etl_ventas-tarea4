@@ -1,4 +1,5 @@
-import pytest, pandas as pd
+import pytest
+import pandas as pd
 from src.transform import limpiar_ventas
  
 def test_falla_sin_columna_monto():

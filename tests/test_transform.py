@@ -1,6 +1,5 @@
 # tests/test_transform.py
-import pandas as pd
-from src.transform import limpiar_ventas, total_por_producto
+from src.transform import limpiar_ventas
  
 def test_quita_nulos(df_crudo):
     out = limpiar_ventas(df_crudo)
