@@ -1,0 +1,9 @@
+# pyproject.toml
+[tool.pytest.ini_options]
+testpaths    = ['tests']
+python_files = ['test_*.py']
+addopts      = '-v --tb=short --strict-markers'
+pythonpath   = ['.']
+markers = [
+    'integracion: prueba el pipeline completo (más lenta)',
+]
